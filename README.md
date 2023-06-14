@@ -11,7 +11,7 @@ With the rapid development of AI technology, keeping up with the latest innovati
 2. Install the required dependencies mentioned in the repository (Levenshtein).
 3. Choose a text file from the provided tasks with varying difficulty levels (easy, medium, or challenging).
 4. Run the Python script `vowel_reconstruct.py` with one argument, so that it will remove vowels from the chosen text, excluding words consisting only of vowels.
-5. Run the Python script `vowel_reconstruct.py` with two arguments: the original text file and the reconstructed text from the language model. For example: `python vowel_reconstruct.py original.txt reconstructed.txt`.
+5. Run the Python script `vowel_reconstruct.py` with two arguments: the original text file and the reconstructed text from the language model. For example: `python vowel_reconstruct.py easy_original.txt reconstructed.txt`.
 6. The script will calculate the Levenshtein distance, similarity score, and YASimScore (a combination of distance and similarity. Here lower values indicate better performance).
 7. Evaluate the results to assess the intelligence of the language model.
 
