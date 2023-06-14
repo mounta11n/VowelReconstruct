@@ -40,7 +40,7 @@ The repository includes interim results from several measurements conducted usin
 | **--------** | **---** |   **------**   | **------** |   **---**   |  **---**   |
 |   Claude+    |   */*   |      100k      |    93%     |     12      |   12.90    |
 |   GPT-3.5    |   */*   |      */*       |   96.18%   |     12      |   12.48    |
-|    GPT-4     |   */*   |      * /*      |   97.77%   |      2      |    2.04    |
+|    GPT-4     |   */*   |      */*       |   97.77%   |      2      |    2.04    |
 
 ## Contribution
 If you have any suggestions, improvements, or additional tests for evaluating language models, feel free to contribute to this repository by submitting a pull request.
