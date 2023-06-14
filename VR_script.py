@@ -58,13 +58,13 @@ def calculate_levenshtein(original_text: str, reconstructed_text: str) -> int:
 
 def process_scenario(arguments: Tuple[str, ...]):
     if len(arguments) == 0:
-        original_text = "Um das zu tun, musst du dich zuerst bei einer dieser Plattformen anmelden und dann den bereitgestellten Embed-Code in deine Obsidian Publish-Seite einfügen. Die Integration kann je nach Plattform unterschiedlich sein, aber es ist meistens ziemlich einfach."
-        reconstructed_text = "Um das zu tun, musst du zuerst bei einer dieser Plattformen anmelden und dann den bereitgestellten mbed-Code in den Basis-Publizier-Stil einfügen. Die Notation kann je nach Plattform unterschiedlich sein, aber sie sollte mindestens einmal nachfolgend sein"
+        original_text = "The letter I have written today is longer than usual because I lacked the time to make it shorter."
+        reconstructed_text = "The letter I have write today is longer then usually because I lacked the time to make it shorter."
         similarity = calculate_similarity(original_text, reconstructed_text)
         levenshtein = calculate_levenshtein(original_text, reconstructed_text)
         yasim_score = levenshtein / (similarity / 100)
-        print(f"Ähnlichkeitsprozentsatz: {similarity}%")
-        print(f"Levenshtein-Abstand: {levenshtein}")
+        print(f"Similarity Value: {similarity}%")
+        print(f"Levenshtein-Distance: {levenshtein}")
         print(f"YASimScore: {yasim_score}")
 
     elif len(arguments) == 1:
@@ -93,8 +93,8 @@ def process_scenario(arguments: Tuple[str, ...]):
         similarity = calculate_similarity(original_text, reconstructed_text)
         levenshtein = calculate_levenshtein(original_text, reconstructed_text)
         yasim_score = levenshtein / (similarity / 100)
-        print(f"Ähnlichkeitsprozentsatz: {similarity}%")
-        print(f"Levenshtein-Abstand: {levenshtein}")
+        print(f"Similarity Value: {similarity}%")
+        print(f"Levenshtein-Distance: {levenshtein}")
         print(f"YASimScore: {yasim_score}")
 
     elif len(arguments) == 3:
@@ -113,9 +113,9 @@ def process_scenario(arguments: Tuple[str, ...]):
         levenshtein = calculate_levenshtein(original_text, reconstructed_text)
         difficulty = (len(original_text) - len(task_text)) / len(original_text) * 100
         yasim_score = levenshtein / (similarity / 100)
-        print(f"Ähnlichkeitsprozentsatz: {similarity}%")
-        print(f"Levenshtein-Abstand: {levenshtein}")
-        print(f"Schwierigkeitsgrad: {difficulty}%")
+        print(f"Similarity Value: {similarity}%")
+        print(f"Levenshtein-Distance: {levenshtein}")
+        print(f"Difficulty: {difficulty}%")
         print(f"YASimScore: {yasim_score}")
 
     else:
