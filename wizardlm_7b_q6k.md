@@ -1,0 +1,1 @@
+The day is sunny. The tree and the sky are beautiful. People watch, first, and then they feel happy. They also look with them. And after the park, they go to play in the playground. Furthermore, they eat a sandwich and have a crust of bread. Then they have a great day and look forward to spending another day at the park.

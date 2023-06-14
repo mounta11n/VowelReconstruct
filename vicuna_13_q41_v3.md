@@ -1,0 +1,1 @@
+Today is a sunny day. Let's go to the park to have a picnic. They have sandwiches, fruit, and lemonade with them. As they enjoy the snacks, they watch the birds flying by and the children playing in the playground. After the picnic, they decided to play a game of frisbee and then have a caramel. They have a great day and look forward to spending another day in the park soon.
