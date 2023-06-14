@@ -4,7 +4,7 @@
 VowelReconstruct is a method for testing the intelligence of language models by evaluating their ability to reconstruct text from which almost all vowels have been removed. This repository provides a set of tasks with varying difficulty levels, along with a Python script to measure the performance of language models.
 
 ## Motivation
-With the rapid development of AI technology, keeping up with the latest innovations and changes in language models can be challenging. Additionally, there is a lack of reliable and valid methods to test local language models for intelligence in a way that is comprehensible and comparable. The VowelReconstruct method aims to address this by providing a practical and meaningful test to evaluate the intelligence of language models.
+With the rapid development of AI technology, keeping up with the latest innovations and changes in language models can be challenging. Additionally, there is a lack of reliable and valid methods to test local language models for intelligence in a way that is comprehensible for the average user and comparable. The VowelReconstruct method aims to address this by providing a practical and meaningful test to evaluate the intelligence of language models.
 
 ## Usage
 1. Clone the repository to your local machine.
