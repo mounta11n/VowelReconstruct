@@ -62,10 +62,10 @@ def process_scenario(arguments: Tuple[str, ...]):
         reconstructed_text = "The letter I have write today is longer then usually because I lacked the time to make it shorter."
         similarity = calculate_similarity(original_text, reconstructed_text)
         levenshtein = calculate_levenshtein(original_text, reconstructed_text)
-        yasim_score = levenshtein / (similarity / 100)
+        sym_score = levenshtein / (similarity / 100)
         print(f"Similarity Value: {similarity}%")
         print(f"Levenshtein-Distance: {levenshtein}")
-        print(f"YASimScore: {yasim_score}")
+        print(f"SymScore: {sym_score}")
 
     elif len(arguments) == 1:
         input_path = arguments[0]
@@ -92,10 +92,10 @@ def process_scenario(arguments: Tuple[str, ...]):
 
         similarity = calculate_similarity(original_text, reconstructed_text)
         levenshtein = calculate_levenshtein(original_text, reconstructed_text)
-        yasim_score = levenshtein / (similarity / 100)
+        sym_score = levenshtein / (similarity / 100)
         print(f"Similarity Value: {similarity}%")
         print(f"Levenshtein-Distance: {levenshtein}")
-        print(f"YASimScore: {yasim_score}")
+        print(f"SymScore: {sym_score}")
 
     elif len(arguments) == 3:
         input_path1, input_path2, input_path3 = arguments
@@ -112,11 +112,11 @@ def process_scenario(arguments: Tuple[str, ...]):
         similarity = calculate_similarity(original_text, reconstructed_text)
         levenshtein = calculate_levenshtein(original_text, reconstructed_text)
         difficulty = (len(original_text) - len(task_text)) / len(original_text) * 100
-        yasim_score = levenshtein / (similarity / 100)
+        sym_score = levenshtein / (similarity / 100)
         print(f"Similarity Value: {similarity}%")
         print(f"Levenshtein-Distance: {levenshtein}")
         print(f"Difficulty: {difficulty}%")
-        print(f"YASimScore: {yasim_score}")
+        print(f"SymScore: {sym_score}")
 
     else:
         print("Too many arguments, please provide 0 to 3 arguments.")
