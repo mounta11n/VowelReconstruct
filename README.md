@@ -12,13 +12,13 @@ With the rapid development of AI technology, keeping up with the latest innovati
 3. Choose a text file from the provided tasks with varying difficulty levels (easy, medium, or challenging).
 4. Run the Python script `vowel_reconstruct.py` with one argument, so that it will remove vowels from the chosen text, excluding words consisting only of vowels.
 5. Run the Python script `vowel_reconstruct.py` with two arguments: the original text file and the reconstructed text from the language model. For example: `python VR_script.py easy_original.txt reconstructed.txt`.
-6. The script will calculate the Levenshtein distance, similarity score, and YASimScore (a combination of distance and similarity. Here lower values indicate better performance).
+6. The script will calculate the Levenshtein distance, similarity score, and SymScore (a combination of distance and similarity. Here lower values indicate better performance).
 7. Evaluate the results to assess the intelligence of the language model.
 
 ## Results
-The repository includes interim results from several measurements conducted using different language models and model sizes. These results provide insights into the performance and intelligence of the tested models. Lower YASimScore, Levenshtein distance, and higher similarity scores indicate better performance.
+The repository includes interim results from several measurements conducted using different language models and model sizes. These results provide insights into the performance and intelligence of the tested models. Lower SymScore, Levenshtein distance, and higher similarity scores indicate better performance.
 
-|     Name     |  Size   | Specifications | Similarity | Levenshtein | YASimScore |
+|     Name     |  Size   | Specifications | Similarity | Levenshtein | SymScore |
 |:------------:|:-------:|:--------------:|:----------:|:-----------:|:----------:|
 |   Guanaco    |   7B    |      */*       |   39.81%   |     151     |   379.29   |
 |   WizardLM   |   7B    |      q40       |   42.36%   |     194     |   457.90   |
