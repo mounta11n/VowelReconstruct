@@ -1,0 +1,1 @@
+Tdy s a snny dy. Ls nd Tm mt n th prk t hv a pcnc. Thy hv sndwchs, frt, nd lmnd wth thm. s thy njy thr sncks, thy wtch th brds flyng by nd th chldrn plyng n th plygrnd. ftr th pcnc, thy dcd t ply a gm f Frsb nd thn hv c crm. Thy hv a grt dy nd lk frwrd t spndng nthr dy t th prk sn.
